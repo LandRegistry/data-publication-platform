@@ -1,4 +1,10 @@
-# GOV.UK Prototyping Kit
+# Data Publication Platform Protoype
+
+needs node 4.2.2
+
+kit based on...
+
+## GOV.UK Prototyping Kit
 
 The kit provides a simple way to make interactive prototypes that look like pages on GOV.UK. These prototypes can be used to show ideas to people you work with, and to do user research.
 
