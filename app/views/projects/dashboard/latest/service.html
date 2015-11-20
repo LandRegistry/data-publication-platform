@@ -1,0 +1,302 @@
+
+{{<layout2}}
+
+{{$pageTitle}}
+  GOV.UK prototyping kit
+{{/pageTitle}}
+
+{{$content}}
+
+<main id="content" role="main">
+
+<div class="spacer_15"></div>
+      
+<div class="breadcrumb">
+	<ol>
+	  <li><a class="breadcrumb_links" href="https://www.gov.uk">Home</a></li>
+	  <li><a class="breadcrumb_links" href="https://www.gov.uk/government/organisations/land-registry">Land Registry</a></li>
+	  <li><a class="breadcrumb_links" href="index">Data Publication Platform</a></li>
+	  <li class="breadcrumb_no_arrow"><span>National Polygon Service</span></li>
+	</ol>
+</div>
+
+<div class="spacer_5"></div>
+
+<div class="grid-row">
+
+	<!-- ///////////////////////////////// column two-thirds ///////////////////////////////// -->
+
+	<div class="column-two-thirds">
+
+		<h1 class="title_48">National Polygon Service</h1>
+
+		<p class="panel_indent">National Polygon Services provides information about the extent of registered land and property in England and Wales.</p>
+
+		<p class="title_24">Description</p>
+
+		<div class="spacer_5"></div>
+
+		<p class="text_16">The National Polygon Service contains three licensed, chargeable datasets. Each dataset is only available as part of the National Polygon Service: <br>
+		● &nbsp; National Polygon dataset <br>
+		● &nbsp; Title Descriptor dataset <br>
+		● &nbsp; Title Number and UPRN Look Up dataset </p>
+
+		<div class="spacer_20"></div>
+		
+		<p class="text_16">
+		Your use of the National Polygon Service is governed by licence terms and conditions. The annual licence permits you to resell the data to clients for their internal use, whether commercial or non-commercial. Members of Public Sector Mapping Agreement (PSMA) and/or One Scotland Mapping Agreement (OSMA) are permitted to use the data for their core business use, under the terms of PSMA/OSMA.</p>
+		
+		<div class="spacer_20"></div>
+
+		<p class="text_16">
+		The licence does not cover the use of third party rights, as Land Registry use Ordnance Survey data in the preparation of the polygons. If you need this, please contact <a class="link_16" href="https://www.ordnancesurvey.co.uk/contact/">Ordnance Survey</a> for the relevant licence conditions.</p>
+
+		<hr>
+
+		<p class="title_24">National Polygon dataset</p>
+
+		<div class="spacer_5"></div>
+
+		<p class="text_16">The National Polygon dataset shows the indicative shape and position of each boundary of a registered title for land and/or property in England and Wales. Every title whether freehold or leasehold has at least one index polygon.</p>
+		
+		<div class="spacer_20"></div>
+
+		<p class="text_16">
+		This dataset contains more than 24 million titles and includes 28 million polygons. Land Registry index polygons are mapped against Ordnance Survey’s large scale map (<a class="link_16" href="https://www.ordnancesurvey.co.uk/business-and-government/products/mastermap-products.html">MasterMap</a>). </p>
+
+		<div class="spacer_10"></div>
+
+		<p><a class="link_16" href="https://www.gov.uk/government/publications/national-polygon-dataset-specification">Read the full specification for the National Polygon dataset</a></p>
+		
+		<div class="spacer_5"></div>
+
+		<p class="text_19_bold">Data provided</p>
+		
+		<div class="spacer_10"></div>
+
+		<p class="text_16">The data includes: <br>
+		● &nbsp; shape <br>
+		● &nbsp; polygon identification <br>
+		● &nbsp; title number <br>
+		● &nbsp; date when polygon was created <br>
+		● &nbsp; update date (date when all or part of the title was last updated) <br>
+		● &nbsp; version of polygon identification number <br>
+		● &nbsp; record status (indicates additions, changes and deletions to the records) </p>
+
+		<div class="spacer_20"></div>
+
+		<p class="text_19_bold">Dataset </p>
+		
+		<div class="spacer_10"></div>
+
+		<p class="text_16">This dataset is a complete extract of the current state of the data and contains all of the changes that have occurred during the month. The data is provided as a ESRI shapefile.</p>
+
+		<div class="spacer_20"></div>
+
+		<p class="text_16">The options include: <br>
+		● &nbsp; complete file: download the data at any time during the year <br>
+		● &nbsp; change only update file: provided on the second working day of each month <br>
+		● &nbsp; validation file: enables you to verify the information has been downloaded correctly </p>
+
+		<div class="spacer_10"></div>
+
+		<p class="text_16"><a class="link_16" href="#">View an example</a> or <a class="link_16" href="#">download a dummy file</a>.</p>
+
+		<!--
+
+		<div class="text_call_to_action">
+			<p><a class="link_16" href="https://www.gov.uk/government/publications/national-polygon-dataset-specification">Read the full specification for the National Polygon dataset</a></p>
+		</div>
+
+		-->
+
+		<hr>
+
+		<p class="title_24">Title Descriptor dataset</p>
+
+		<div class="spacer_5"></div>
+
+		<p class="text_16">The Title Descriptor dataset describes the legal interest(s) that have been recorded against freehold and leasehold estates (property and/or land) registered in England and Wales. When an estate is registered it is assigned a unique title number, enabling individual records to be interrogated. </p>
+
+		<div class="spacer_10"></div>
+
+		<p><a class="link_16" href="https://www.gov.uk/government/publications/title-descriptor-dataset-specification">Read the full specification for the Title Descriptor dataset</a></p>
+		
+		<div class="spacer_5"></div>
+
+		<p class="text_19_bold">Data provided</p>
+		
+		<div class="spacer_10"></div>
+
+		<p class="text_16">The data includes: <br>
+		● &nbsp; title number (unique number that identifies the registration) <br>
+		● &nbsp; estate interest (describes the legal estate or legal interest that has been registered) <br>
+		● &nbsp; class of title (describes Registrar’s confidence in the ownership of the title at the point of registration) <br>
+		● &nbsp; registered status (indicates if the title is registered) <br>
+		● &nbsp; record status (indicates additions, changes and deletions to the records) </p>
+		
+		<div class="spacer_20"></div>
+
+		<p class="text_19_bold">Dataset </p>
+		
+		<div class="spacer_10"></div>
+
+		<p class="text_16">This dataset is a complete extract of the current state of the data and contains all of the changes that have occurred during the month. The data is provided as a CSV file.</p>
+
+		<div class="spacer_20"></div>
+
+		<p class="text_16">The options include: <br>
+		● &nbsp; complete file: download the data at any time during the year <br>
+		● &nbsp; change only update file: provided on the second working day of each month <br>
+		● &nbsp; validation file: enables you to verify the information has been downloaded correctly </p>
+
+		<div class="spacer_10"></div>
+
+		<p class="text_16"><a class="link_16" href="#">View an example</a> or <a class="link_16" href="#">download a dummy file</a>.</p>
+
+		<hr>
+
+		<p class="title_24">Title Number and UPRN Look Up dataset</p>
+
+		<div class="spacer_5"></div>
+
+		<p class="text_16">The Title Number and UPRN Look Up dataset contains Land Registry title numbers and associated UPRNs (Unique Property Reference Numbers) for freehold and leasehold property/land registered in England and Wales. </p>
+
+		<div class="spacer_20"></div>
+
+		<p class="text_16"><a class="link_16" href="http://www.iahub.net/docs/1418748883990.pdf">UPRNs</a> are unique twelve digit numbers assigned to every addressable location in the UK. The information is created by GeoPlace, a joint venture between local authorities, who name and number every street and property, and Ordnance Survey. Ordnance Survey’s <a class="link_16" href="https://www.ordnancesurvey.co.uk/business-and-government/products/addressbase-products.html">AddressBase</a> links both property and land information to a map whenever possible. </p>
+
+		<div class="spacer_20"></div>
+
+		<p class="text_16">Title numbers and UPRNs can only be linked where a relationship between the title number and AddressBase address has been identified. </p>
+
+		<div class="spacer_20"></div>
+
+		<p class="text_16">UPRNs provide a comprehensive, complete and consistent identifier throughout a property’s life. Cross-referenced with title numbers they enable files to be matched and merged with datasets from different sources to create valuable insight. </p>
+
+		<div class="spacer_10"></div>
+
+		<p><a class="link_16" href="https://www.gov.uk/government/publications/title-number-and-uprn-look-up-dataset-specification">Read the full specification for the Title Number and UPRN Lookup dataset</a></p>
+		
+		<div class="spacer_5"></div>
+
+		<p class="text_19_bold">Data provided</p>
+		
+		<div class="spacer_10"></div>
+
+		<p class="text_16">The data includes: <br>
+		● &nbsp; title number (unique number that identifies the registration) <br>
+		● &nbsp; unique Property Reference Number (identifier of a spatial address) </p>
+		
+		<div class="spacer_20"></div>
+
+		<p class="text_19_bold">Dataset </p>
+		
+		<div class="spacer_10"></div>
+
+		<p class="text_16">This dataset is a complete extract of the current state of the data. The data is provided as a CSV file.</p>
+
+		<div class="spacer_20"></div>
+
+		<p class="text_16">The options include: <br>
+		● &nbsp; complete file: download the data at any time during the year, complete file will be refreshed monthly <br>
+		● &nbsp; validation file: enables you to verify the information has been downloaded correctly </p>
+
+		<div class="spacer_10"></div>
+
+		<p class="text_16"><a class="link_16" href="#">View an example</a> or <a class="link_16" href="#">download a dummy file</a>.</p>
+
+		<hr>
+
+		<p class="title_24">Purchase data</p>
+
+		<div class="spacer_5"></div>
+
+		<p class="text_16">To access the data you will need to: <br>
+		● &nbsp; contact Ordnance Survey to enter into the relevant licence conditions <br>
+		● &nbsp; contact our Business Development Fulfilment Team to sign our licence <br>
+		● &nbsp; pay an upfront data supply charge <br>
+		● &nbsp; download the CSV data file </p>
+
+		<div class="spacer_20"></div>
+
+		<p class="text_16">For more information, contact our Business Development Fulfilment Team. Email <a class="link_16" heref="#">datapublication@landregistry.gsi.gov.uk</a> or call 0300 006 0478. </p>
+
+		<div class="spacer_20"></div>
+
+		<p class="text_16">If you have an account all ready, you can purchase data now by clicking the button below:</p>
+
+		<div class="spacer_20"></div>
+		
+		<p><a href="data"><input class="button" type="submit" value="Buy dataset"></a></p>
+
+		<div class="spacer_50"></div>
+
+		<div>        
+			<a href="#" class="link_16_gray">Is there anything wrong with this page?</a>             
+		</div>
+
+	</div>
+
+	<!-- ///////////////////////////////// end column two-thirds ///////////////////////////////// -->
+
+	<!-- ///////////////////////////////// column-third ///////////////////////////////// -->
+
+	<div class="column-third">
+
+		<div class="spacer_10"></div>
+
+      	<div class="related"></div>
+
+      	<div class="spacer_15"></div>
+
+      	<p class="title_24">Purchase data</p>  
+
+      	<div class="spacer_10"></div>
+
+		<p class="text_16">To access the data you will need to: </p>
+		
+		<div class="spacer_10"></div>
+
+		<p class="text_16">1. Contact Ordnance Survey to enter into the relevant licence conditions </p>
+		
+		<div class="spacer_5"></div>
+
+		<p class="text_16">2. Contact our Business Development Fulfilment Team to sign our licence </p>
+		
+		<div class="spacer_5"></div>
+
+		<p class="text_16">3. Pay an upfront data supply charge </p>
+		
+		<div class="spacer_5"></div>
+
+		<p class="text_16">4. Download the CSV data file </p>
+
+		<!--
+
+      	<div class="spacer_20"></div>
+
+		<p class="text_16">For more information, contact our Business Development Fulfilment Team. <a class="link_16" heref="#">Email</a> or call 0300 006 0478. </p>
+
+		-->
+
+		<div class="spacer_20"></div>
+
+		<p class="text_16">If you have an account all ready, you can purchase data now by clicking the button below:</p>
+
+		<div class="spacer_20"></div>
+		
+		<p><a href="data"><input class="button" type="submit" value="Buy dataset"></a></p>
+
+	</div>
+
+	<!-- ///////////////////////////////// end column-third ///////////////////////////////// -->
+
+</div>
+
+</main>
+
+{{/content}}
+
+{{/layout2}}
+

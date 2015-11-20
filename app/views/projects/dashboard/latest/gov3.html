@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<!--[if lt IE 9]><html class="lte-ie8" lang="en"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en"><!--<![endif]--><head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+    <title>Land Registry - GOV.UK</title>
+
+    <script async="" src="//www.google-analytics.com/analytics.js"></script><script type="text/javascript">
+      (function(){if(navigator.userAgent.match(/IEMobile\/10\.0/)){var d=document,c="appendChild",a=d.createElement("style");a[c](d.createTextNode("@-ms-viewport{width:auto!important}"));d.getElementsByTagName("head")[0][c](a);}})();
+    </script>
+
+    <!--[if gt IE 8]><!--><link href="https://assets.digital.cabinet-office.gov.uk/static/govuk-template-b5d680ad6607cf5441a22a3a533e92b40b15b8f6b9708dbdfc5fc6da71949113.css" media="screen" rel="stylesheet" type="text/css">
+<!--<![endif]-->
+    <!--[if IE 6]><link href="https://assets.digital.cabinet-office.gov.uk/static/govuk-template-ie6-8ce52e6c57ef52b485fe341b80212e02a5fe79b7b83b7fd19750bcc9b53b5f1f.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+    <!--[if IE 7]><link href="https://assets.digital.cabinet-office.gov.uk/static/govuk-template-ie7-219c9b201ceef33894394de26637d9339c6caf2e20da4144d28024b75a13958f.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+    <!--[if IE 8]><link href="https://assets.digital.cabinet-office.gov.uk/static/govuk-template-ie8-09843edb0e6dc505c97e57a4b7018ed42fd4fef0ce0974e26e9f1bb28fb781d6.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+
+    <link href="https://assets.digital.cabinet-office.gov.uk/static/govuk-template-print-e4515cc0129a011e04d70411d732b064ae130c10526c16fdab1159fb8bf3db0e.css" media="print" rel="stylesheet" type="text/css">
+
+    <!--[if IE 8]>
+    <script type="text/javascript">
+      (function(){if(window.opera){return;}
+       setTimeout(function(){var a=document,g,b={families:(g=
+       ["nta"]),urls:["https://assets.digital.cabinet-office.gov.uk/static/fonts-ie8-e119686ad063d9cf6a6ecde56ec4760b8084d32b80a6a0e0a790d3459316690c.css"]},
+       c="https://assets.digital.cabinet-office.gov.uk/static/vendor/goog/webfont-debug-733b09043a9050e3ccd9ad049535413e25ae4405dc9ec85f2c575b0ad3b19a74.js",d="script",
+       e=a.createElement(d),f=a.getElementsByTagName(d)[0],h=g.length;WebFontConfig
+       ={custom:b},e.src=c,f.parentNode.insertBefore(e,f);for(;h=h-1;a.documentElement
+       .className+=' wf-'+g[h].replace(/\s/g,'').toLowerCase()+'-n4-loading');},0)
+      })()
+    </script>
+    <![endif]-->
+    <!--[if gte IE 9]><!-->
+      <link href="https://assets.digital.cabinet-office.gov.uk/static/fonts-5ff8c53913434afd0072a480d7cfca67cace4c8d03f6ef96b78a4455728ce745.css" media="all" rel="stylesheet" type="text/css">
+    <!--<![endif]-->
+
+
+    <!--[if lt IE 9]>
+      <script src="https://assets.digital.cabinet-office.gov.uk/static/ie-105665c0105db53b92e57fabb90b0ef42b9034a0b8341beb3a20621a7f7eb4d3.js" type="text/javascript"></script>
+    <![endif]-->
+
+    <link rel="shortcut icon" href="https://assets.digital.cabinet-office.gov.uk/static/favicon-8d811b8c3badbc0b0e2f6e25d3660a96cc0cca7993e6f32e98785f205fc40907.ico" type="image/x-icon">
+
+    <!-- Size for iPad and iPad mini (high resolution) -->
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://assets.digital.cabinet-office.gov.uk/static/apple-touch-icon-152x152-55dd2af7a53abb7dd14ba6a3c6c3fc786c57a074ba809f6dd767e186955a87e1.png">
+    <!-- Size for iPhone and iPod touch (high resolution) -->
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://assets.digital.cabinet-office.gov.uk/static/apple-touch-icon-120x120-92580784afc35143f96b8cf5614e221427fdea444aeb13d912c879e884af7336.png">
+    <!-- Size for iPad 2 and iPad mini (standard resolution) -->
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://assets.digital.cabinet-office.gov.uk/static/apple-touch-icon-76x76-9b193f39cde53b92ba555efed856bcd103d6d1dc650919eb9f29dbe5f442cfb0.png">
+    <!-- Default non-defined size, also used for Android 2.1+ devices -->
+    <link rel="apple-touch-icon-precomposed" href="https://assets.digital.cabinet-office.gov.uk/static/apple-touch-icon-60x60-0af0a7cf886701647210f13b661e607b7223bc3221b6d275718a89af79b3e7b9.png">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:image" content="https://assets.digital.cabinet-office.gov.uk/static/opengraph-image-a1f7d89ffd0782738b1aeb0da37842d8bd0addbd724b8e58c3edbc7287cc11de.png">
+
+      <!--[if gt IE 8]><!--><link rel="stylesheet" media="screen" href="https://assets.digital.cabinet-office.gov.uk/static/header-footer-only-c0dc07e70d0bd52070809362e26a5bf4286f213da62d778aa40d8a97b448d463.css">
+<!--<![endif]-->
+<!--[if IE 6]><link rel="stylesheet" media="screen" href="https://assets.digital.cabinet-office.gov.uk/static/header-footer-only-ie6-21df7467c18190448caf62b4712837a65bd50333eceb53a171b9ee7785011383.css" /><script>var ieVersion = 6;</script><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" media="screen" href="https://assets.digital.cabinet-office.gov.uk/static/header-footer-only-ie7-385d310dcc3e80dba5f660f4bb734705663f0abfe1741d7246cf50051216973f.css" /><script>var ieVersion = 7;</script><![endif]-->
+<!--[if IE 8]><link rel="stylesheet" media="screen" href="https://assets.digital.cabinet-office.gov.uk/static/header-footer-only-ie8-c2b05d391baf8a80ee3db739d9ebe5a26dd633cc77f3b871e49331da8d420ef3.css" /><script>var ieVersion = 8;</script><![endif]-->
+
+<link rel="stylesheet" media="print" href="https://assets.digital.cabinet-office.gov.uk/static/header-footer-only-print-f22bccbf38170c0f2598e050f48db1a2c0649520c8f7900210f614264ecbcea8.css">
+
+
+  <!--[if gt IE 9]><!--><link rel="stylesheet" media="screen" href="https://assets.digital.cabinet-office.gov.uk/government/assets/frontend/base-9f92a561596351357a6e1d05a9dd45ab13da01d9180b90d35b0e64fd1b1d1d35.css">
+<!--<![endif]--><link rel="stylesheet" media="print" href="https://assets.digital.cabinet-office.gov.uk/government/assets/frontend/print-d7bbf6e594aa2ff0ebbed133c3f65fdfe59e18be03d0713bb01d554c32444f18.css">
+<link rel="alternate" type="application/atom+xml" title="Latest activity" href="https://www.gov.uk/government/organisations/land-registry.atom">
+<link href="https://www.gov.uk/api/organisations/land-registry" rel="alternate" type="application/json">
+<meta content="True" name="HandheldFriendly">
+<meta content="320" name="MobileOptimized">
+<meta name="description" content="We register the ownership of land and property in England and Wales.">
+<meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="YjIUThLmnaJ1D33rbymCHSkp2pKPZHE/1QOLuYfnE7QrexQ5IFGu6IrIS6B4FqYro/wZaEmWIp+ajB9/9lLf/g==">
+<!--[if IE 6]><link rel="stylesheet" media="screen" href="https://assets.digital.cabinet-office.gov.uk/government/assets/frontend/base-ie6-ebb64c5779116d11fc049c9ed8133a4d3a4a2f6b1ea71f2b93ce0356b28d4087.css" /><script>var ieVersion = 6;</script><![endif]--><!--[if IE 7]><link rel="stylesheet" media="screen" href="https://assets.digital.cabinet-office.gov.uk/government/assets/frontend/base-ie7-93ec6baa203ed06ace9796a6a0c0d79c9d6a2ff26601c117e99c3601b918e5e1.css" /><script>var ieVersion = 7;</script><![endif]--><!--[if IE 8]><link rel="stylesheet" media="screen" href="https://assets.digital.cabinet-office.gov.uk/government/assets/frontend/base-ie8-1f14ac782b6e520051527bcd8a4ba13be024bd674d9ea527ed7bba91587b57e2.css" /><script>var ieVersion = 8;</script><![endif]--><!--[if IE 9]><link rel="stylesheet" media="screen" href="https://assets.digital.cabinet-office.gov.uk/government/assets/frontend/base-ie9-2fcf38ae4b6bf50905b9001857c32b6e66197880c60bb10f22b88d39e3100555.css" /><script>var ieVersion = 9;</script><![endif]--><meta name="govuk:analytics:organisations" content="&lt;D69&gt;">
+<meta name="govuk:rendering-application" content="whitehall">
+</head>
+
+  <body class="website government js-enabled">
+    <script type="text/javascript">document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
+
+    
+
+    <div id="skiplink-container">
+      <div>
+        <a href="#content" class="skiplink">Skip to main content</a>
+      </div>
+    </div>
+
+    <div id="global-cookie-message">
+        <p>GOV.UK uses cookies to make the site simpler. <a href="https://www.gov.uk/help/cookies">Find out more about cookies</a></p>
+    </div>
+    <!--end global-cookie-message-->
+
+    <header role="banner" id="global-header" class=" with-proposition">
+      <div class="header-wrapper">
+        <div class="header-global">
+          <div class="header-logo">
+            <a href="https://www.gov.uk" title="Go to the GOV.UK homepage" id="logo" class="content">
+              <img src="https://assets.digital.cabinet-office.gov.uk/static/gov.uk_logotype_crown_invert_trans-78910ec0b2d46b9f4933556ba3d6863ca9bbcbefa8a4c811dce36f7026d04de8.png" width="35" height="31" alt=""> GOV.UK
+            </a>
+          </div>
+            <a href="#search" class="search-toggle js-header-toggle">Search</a>
+
+  <form id="search" class="site-search" action="/search" method="get" role="search">
+    <div class="content">
+      <label for="site-search-text">Search</label>
+      <input type="search" name="q" id="site-search-text" title="Search" class="js-search-focus">
+      <input class="submit" type="submit" value="Search">
+    </div>
+  <input type="hidden" name="filter_organisations[]" value="land-registry">
+</form>
+
+        </div>
+        
+      <div class="header-proposition">
+  <div class="content">
+    <a href="#proposition-links" class="js-header-toggle menu">Menu</a>
+  <nav id="proposition-menu" class="no-proposition-name">
+    <ul id="proposition-links">
+      <li><a class="active" href="/government/organisations">Departments</a></li>
+      <li><a class="" href="/government/world">Worldwide</a></li>
+      <li><a class="" href="/government/how-government-works">How government works</a></li>
+      <li><a class="" href="/government/get-involved">Get involved</a></li>
+      <li class="clear-child"><a class="" href="/government/policies">Policies</a></li>
+      <li><a class="" href="/government/publications">Publications</a></li>
+      <li><a class="" href="/government/publications?publication_filter_option=consultations">Consultations</a></li>
+      <li><a class="" href="/government/statistics">Statistics</a></li>
+      <li><a class="" href="/government/announcements">Announcements</a></li>
+    </ul>
+  </nav>
+</div>
+</div>
+</div>
+    </header>
+    <!--end header-->
+
+      <div id="user-satisfaction-survey-container" data-survey-url="https://www.surveymonkey.com/s/6HZFSVC"></div>
+
+    
+
+
+    <div id="global-header-bar"></div>
+    <!--end global-header-bar-->
+
+        <div class="header-context group"><!-- deliberately empty --></div>
+
+  <div id="whitehall-wrapper">
+      
+  
+  <main id="content" role="main" class="whitehall-content">
+    <div id="page" class="organisations-show">
+      
+
+<div class="organisation land-registry department-for-business-innovation-skills-brand-colour non-ministerial-department" id="organisation_69">
+
+  <div class="block-1 headings-block service-priority">
+    <div class="inner-block floated-children">
+      
+<header class="page-header">
+  <div class="logo">
+    <h1><img alt="Land Registry" class="organisation-logo-custom" src="https://assets.digital.cabinet-office.gov.uk/government/uploads/system/uploads/organisation/logo/69/LR_logo_265.png"></h1>
+
+  </div>
+
+  <aside class="heading-extra">
+      
+      <ul class="featured-links">
+    <li><a href="https://www.gov.uk/search-house-prices">Search house prices</a></li>
+    <li><a href="https://www.gov.uk/search-property-information-land-registry">Search property ownership information</a></li>
+    <li><a href="https://www.gov.uk/your-property-boundaries">Boundary questions</a></li>
+    <li><a href="https://www.gov.uk/get-information-about-property-and-land/copies-of-deeds">Title deeds</a></li>
+    <li><a href="https://www.gov.uk/joint-property-ownership">Joint property ownership </a></li>
+    <li><a href="https://www.gov.uk/land-registration/searches-fees-forms">Searches, fees and forms</a></li>
+    <li><a href="index">Data</a></li>
+    <li><a href="https://www.gov.uk/land-registration/business-mortgage-services">Business and mortgage services</a></li>
+    <li><a href="https://www.gov.uk/government/collections/business-e-services#portal">Business e-services portal</a></li>
+    <li><a href="https://www.gov.uk/land-registration/practice-guides">Practice guides</a></li>
+</ul>
+</aside>
+</header>
+
+    </div>
+  </div>
+
+  <div class="block-2 has-social">
+    <div class="inner-block">
+        <section class="organisation-news featured-news items-2 with-featured-links" id="featured-documents">
+    <article class="feature item-0" id="feature_38896">
+  <div class="content">
+    <span class="image-holder">
+      <a title="Read the October 2015 Transaction Data article" class="img" href="/government/news/october-2015-transaction-data"><img class="featured-image" alt="Land from the sky" src="https://assets.digital.cabinet-office.gov.uk/government/uploads/system/uploads/feature/image/38896/s300_gov4.jpg"></a>
+    </span>
+    <div class="text">
+        <p class="meta">
+              <time class="date" datetime="2015-11-20T11:00:04+00:00">20 November 2015</time> — Press release
+        </p>
+      <h2><a href="/government/news/october-2015-transaction-data">October 2015 Transaction Data</a></h2>
+        <p class="summary">This data provides information about the number and types of applications that Land Registry completed in October 2015.</p>
+    </div>
+  </div>
+</article><article class="feature item-1" id="feature_38897">
+  <div class="content">
+    <span class="image-holder">
+      <a title="Read the Changes to warning of cancellation letters article" class="img" href="/government/news/changes-to-how-we-send-warning-of-cancellation-letters"><img class="featured-image" alt="Land Registry sign" src="https://assets.digital.cabinet-office.gov.uk/government/uploads/system/uploads/feature/image/38897/s300_Croydon-Office1.jpg"></a>
+    </span>
+    <div class="text">
+        <p class="meta">
+              <time class="date" datetime="2015-11-20T10:30:30+00:00">20 November 2015</time> — News story
+        </p>
+      <h2><a href="/government/news/changes-to-how-we-send-warning-of-cancellation-letters">Changes to warning of cancellation letters</a></h2>
+        <p class="summary">From January 2016, we will change how we send warning of cancellation letters and what they contain.</p>
+    </div>
+  </div>
+</article>
+    
+<section id="recently-updated" class="recently-updated panel">
+  <div class="content">
+    <header>
+      <h1 class="label">Latest</h1>
+    </header>
+      <ol class="document-list">
+    <li class="recent_news_article document-row" id="recent_news_article_563255">
+      <h2><a href="/government/news/october-2015-transaction-data">October 2015 Transaction Data</a></h2>
+      <ul class="attributes">
+        <li class="published-date">
+          published
+          <time class="published-at date" datetime="2015-11-20T11:00:04+00:00">20 November 2015</time>
+        </li>
+        <li class="display-type">Press release</li>
+      </ul>
+</li>    <li class="recent_news_article document-row" id="recent_news_article_564889">
+      <h2><a href="/government/news/changes-to-how-we-send-warning-of-cancellation-letters">Changes to warning of cancellation letters</a></h2>
+      <ul class="attributes">
+        <li class="published-date">
+          updated
+          <time class="published-at date" datetime="2015-11-20T10:30:30+00:00">20 November 2015</time>
+        </li>
+        <li class="display-type">News story</li>
+      </ul>
+</li>    <li class="recent_publication document-row" id="recent_publication_564090">
+      <h2><a href="/government/publications/about-the-house-price-index">About the House Price Index</a></h2>
+      <ul class="attributes">
+        <li class="published-date">
+          updated
+          <time class="published-at date" datetime="2015-11-17T14:00:28+00:00">17 November 2015</time>
+        </li>
+        <li class="display-type">Guidance</li>
+      </ul>
+</li>
+</ol>
+
+      <div class="feeds">
+    <span>Get updates to this list</span>
+    <a class="govdelivery" href="/government/email-signup/new?email_signup%5Bfeed%5D=https%3A%2F%2Fwww.gov.uk%2Fgovernment%2Forganisations%2Fland-registry.atom">email</a>&nbsp;<a class="feed js-feed" href="https://www.gov.uk/government/organisations/land-registry.atom">feed</a>
+    <div class="feed-panel js-feed-panel">
+      <h3>Copy and paste this URL in to your feed reader</h3>
+      <input value="https://www.gov.uk/government/organisations/land-registry.atom">
+    </div>
+  </div>
+
+      <p class="see-all">
+        <a href="/government/latest?departments%5B%5D=land-registry">See all</a>
+      </p>
+  </div>
+</section>
+
+  </section>
+
+      <section id="what-we-do" class="what-we-do">
+        <div class="content">
+          <h1 class="label">What we do</h1>
+          <div class="overview">
+              <p class="description">We register the ownership of land and property in England and Wales.</p>
+              <p class="parent_organisations">
+                <abbr title="Land Registry">Land Registry</abbr> is a non-ministerial department.
+              </p>
+            <p><a id="read_more_link" href="/government/organisations/land-registry/about">Read more about what we do</a></p>
+          </div>
+        </div>
+      </section>
+        <div class="social-media">
+          <div class="content">
+              <section>
+      <h2 class="label">Follow us</h2>
+    <ul class="social-media-accounts js-hide-extra-social-media">
+        <li class="social_media_account" id="social_media_account_1650">
+          <a class="social-media-link twitter" href="https://twitter.com/LandRegGov">
+            <span class="connect">Connect with Land Registry on</span> @LandRegGov
+</a>
+</li>        <li class="social_media_account" id="social_media_account_1651">
+          <a class="social-media-link facebook" href="https://www.facebook.com/hmlandregistry">
+            <span class="connect">Connect with Land Registry on</span> facebook.com/hmlandregistry
+</a>
+</li>        <li class="social_media_account" id="social_media_account_1653">
+          <a class="social-media-link blog" href="http://blog.landregistry.gov.uk/">
+            <span class="connect">Connect with Land Registry on</span> blog.landregistry.gov.uk
+</a>
+</li>        <li class="social_media_account" id="social_media_account_1655">
+          <a class="social-media-link linkedin" href="http://linkedin.com/company/land-registry">
+            <span class="connect">Connect with Land Registry on</span> linkedin.com/company/land-registry
+</a>
+</li>        <li class="social_media_account" id="social_media_account_1656">
+          <a class="social-media-link youtube" href="https://www.youtube.com/user/LandRegGov">
+            <span class="connect">Connect with Land Registry on</span> youtube.com/user/LandRegGov
+</a>
+</li>        <span class="js-hidden"><li class="social_media_account" id="social_media_account_1703">
+          <a class="social-media-link google-plus" href="http://plus.google.com/+landregistry">
+            <span class="connect">Connect with Land Registry on</span> +landregistry
+</a>
+</li>    </span></ul><a class="show-other-content" href="#" title="Show additional content"><span class="plus">+&nbsp;</span>others</a>
+  </section>
+
+          </div>
+        </div>
+    </div>
+  </div>
+
+
+  <div class="block documents-grid">
+  <div class="inner-block">
+    <h1 class="block-title">Documents</h1>
+      <section id="announcements" class="document-block documents-1">
+        <h1>Our announcements</h1>
+        <div class="content">
+          <ol class="document-list">
+    <li class="news_article document-row" id="news_article_563255">
+      <h2><a href="/government/news/october-2015-transaction-data">October 2015 Transaction Data</a></h2>
+      <ul class="attributes">
+        <li class="publication-date"><time class="public_timestamp" datetime="2015-11-20T11:00:04+00:00">20 November 2015</time></li>
+        <li class="document-type">Press release</li>
+      </ul>
+</li>    <li class="news_article document-row" id="news_article_564889">
+      <h2><a href="/government/news/changes-to-how-we-send-warning-of-cancellation-letters">Changes to warning of cancellation letters</a></h2>
+      <ul class="attributes">
+        <li class="publication-date"><time class="public_timestamp" datetime="2015-11-20T10:30:30+00:00">20 November 2015</time></li>
+        <li class="document-type">News story</li>
+      </ul>
+</li>
+</ol>
+
+          <p class="see-all">
+            <a href="/government/announcements?departments%5B%5D=land-registry">See all our announcements</a>
+          </p>
+        </div>
+      </section>
+      <section id="consultations" class="document-block documents-2">
+        <h1>Our consultations</h1>
+        <div class="content">
+          <ol class="document-list">
+    <li class="consultation document-row" id="consultation_477416">
+      <h2><a href="/government/consultations/land-registry-wider-powers-and-local-land-charges">Land Registry: Wider Powers and Local Land Charges</a></h2>
+      <ul class="attributes">
+        <li class="publication-date"><time class="public_timestamp" datetime="2015-03-20T16:30:14+00:00">20 March 2015</time></li>
+        <li class="document-type">Consultation outcome</li>
+      </ul>
+</li>    <li class="consultation document-row" id="consultation_471168">
+      <h2><a href="/government/consultations/development-of-a-definitive-house-price-index">Development of a definitive House Price Index</a></h2>
+      <ul class="attributes">
+        <li class="publication-date"><time class="public_timestamp" datetime="2014-10-07T09:30:00+01:00"> 7 October 2014</time></li>
+        <li class="document-type">Consultation outcome</li>
+      </ul>
+</li>
+</ol>
+
+          <p class="see-all">
+            <a href="/government/publications?departments%5B%5D=land-registry&amp;publication_filter_option=consultations">See all our consultations</a>
+          </p>
+        </div>
+      </section>
+      <section id="publications" class="document-block documents-3">
+        <h1>Our publications</h1>
+        <div class="content">
+          <ol class="document-list">
+    <li class="publication document-row" id="publication_564090">
+      <h2><a href="/government/publications/about-the-house-price-index">About the House Price Index</a></h2>
+      <ul class="attributes">
+        <li class="publication-date"><time class="public_timestamp" datetime="2015-11-17T14:00:28+00:00">17 November 2015</time></li>
+        <li class="document-type">Guidance</li>
+      </ul>
+</li>    <li class="publication document-row" id="publication_563545">
+      <h2><a href="/government/publications/land-registry-workforce-management-information-october-2015">Land Registry workforce management information: October 2015</a></h2>
+      <ul class="attributes">
+        <li class="publication-date"><time class="public_timestamp" datetime="2015-11-17T11:37:56+00:00">17 November 2015</time></li>
+        <li class="document-type">Transparency data</li>
+      </ul>
+</li>
+</ol>
+
+          <p class="see-all">
+            <a href="/government/publications?departments%5B%5D=land-registry">See all our publications</a>
+          </p>
+        </div>
+      </section>
+  </div>
+</div>
+
+
+    <div class="block-9">
+      <div class="inner-block" id="people">
+        <section id="who">
+
+
+            <section id="management" class="important-board-members-3">
+              <h1 class="label">Our management</h1>
+              <ul class="management-primary">
+                    <li class="person person-excerpt clear-person" id="person_2322">
+    <div class="inner">
+          <div class="image-holder">
+            <a class="img" href="/government/people/graham-farrant"><img alt="Graham Farrant" src="https://assets.digital.cabinet-office.gov.uk/government/uploads/system/uploads/person/image/2322/s216__W4A3476.jpg"></a>
+          </div>
+      <div class="text">
+        <h2 class="current-appointee"><a href="/government/people/graham-farrant"><strong>Graham Farrant</strong></a></h2>
+        <p class="role">
+          Chief Executive and Chief Land Registrar
+          <span></span>        </p>
+      </div>
+    </div>
+</li>
+                    <li class="person person-excerpt " id="person_1868">
+    <div class="inner">
+          <div class="image-holder">
+            <a class="img" href="/government/people/john-peaden"><img alt="John Peaden" src="https://assets.digital.cabinet-office.gov.uk/government/uploads/system/uploads/person/image/1868/s216_John-Peaden.jpg"></a>
+          </div>
+      <div class="text">
+        <h2 class="current-appointee"><a href="/government/people/john-peaden"><strong>John Peaden</strong></a></h2>
+        <p class="role">
+          Operations Director
+          <span></span>        </p>
+      </div>
+    </div>
+</li>
+                    <li class="person person-excerpt " id="person_1886">
+    <div class="inner">
+          <div class="image-holder">
+            <a class="img" href="/government/people/alasdair-lewis"><img alt="Alasdair Lewis" src="https://assets.digital.cabinet-office.gov.uk/government/uploads/system/uploads/person/image/1886/s216_Alasdair_Lewis.jpg"></a>
+          </div>
+      <div class="text">
+        <h2 class="current-appointee"><a href="/government/people/alasdair-lewis"><strong>Alasdair Lewis</strong></a></h2>
+        <p class="role">
+          Director of Legal Services
+          <span></span>        </p>
+      </div>
+    </div>
+</li>
+              </ul>
+              <ul class="management-secondary">
+                    <li class="person person-excerpt clear-person" id="person_1890">
+    <div class="inner">
+      <div class="text">
+        <h2 class="current-appointee"><a href="/government/people/caroline-anderson"><strong>Caroline  Anderson</strong></a></h2>
+        <p class="role">
+          Director of Human Resources
+          <span></span>        </p>
+      </div>
+    </div>
+</li>
+                    <li class="person person-excerpt " id="person_2190">
+    <div class="inner">
+      <div class="text">
+        <h2 class="current-appointee"><a href="/government/people/catherine-vaughan"><strong>Catherine  Vaughan</strong></a></h2>
+        <p class="role">
+          Finance Director
+          <span></span>        </p>
+      </div>
+    </div>
+</li>
+                    <li class="person person-excerpt " id="person_1888">
+    <div class="inner">
+      <div class="text">
+        <h2 class="current-appointee"><a href="/government/people/rowland-coombs"><strong>Rowland  Coombs</strong></a></h2>
+        <p class="role">
+          Director of Information Systems
+          <span></span>        </p>
+      </div>
+    </div>
+</li>
+                    <li class="person person-excerpt " id="person_1889">
+    <div class="inner">
+      <div class="text">
+        <h2 class="current-appointee"><a href="/government/people/paul-dowse"><strong>Paul Dowse</strong></a></h2>
+        <p class="role">
+          Acting Director of Strategy
+          <span></span>        </p>
+      </div>
+    </div>
+</li>
+                    <li class="person person-excerpt clear-person" id="person_624">
+    <div class="inner">
+      <div class="text">
+        <h2 class="current-appointee"><a href="/government/people/mark-boyle"><strong>Mark Boyle</strong></a></h2>
+        <p class="role">
+          Non-executive Chair
+          <span></span>        </p>
+      </div>
+    </div>
+</li>
+                    <li class="person person-excerpt " id="person_1885">
+    <div class="inner">
+      <div class="text">
+        <h2 class="current-appointee"><a href="/government/people/gerard-connell"><strong>Gerard Connell</strong></a></h2>
+        <p class="role">
+          Non-executive Director
+          <span></span>        </p>
+      </div>
+    </div>
+</li>
+                    <li class="person person-excerpt " id="person_1884">
+    <div class="inner">
+      <div class="text">
+        <h2 class="current-appointee"><a href="/government/people/leo-geddes"><strong>Leo Geddes</strong></a></h2>
+        <p class="role">
+          Non-executive Director
+          <span></span>        </p>
+      </div>
+    </div>
+</li>
+                    <li class="person person-excerpt " id="person_1882">
+    <div class="inner">
+      <div class="text">
+        <h2 class="current-appointee"><a href="/government/people/catrina-holme"><strong>Catrina Holme</strong></a></h2>
+        <p class="role">
+          Non-executive Director
+          <span></span>        </p>
+      </div>
+    </div>
+</li>
+                    <li class="person person-excerpt clear-person" id="person_1881">
+    <div class="inner">
+      <div class="text">
+        <h2 class="current-appointee"><a href="/government/people/tim-franklin"><strong>Tim Franklin</strong></a></h2>
+        <p class="role">
+          Non-executive Director
+          <span></span>        </p>
+      </div>
+    </div>
+</li>
+              </ul>
+            </section>
+
+
+
+
+        </section>
+      </div>
+    </div>
+
+
+  <div class="block-10">
+    <div class="inner-block">
+      <div class="contact-wrapper">
+          <h1 id="org-contacts" class="label">Contact Land Registry</h1>
+          <div class="org-contacts">
+            <div class="addresses">
+              <div class="contact clear-contact" id="contact_2422">
+  <div class="content">
+    <h2>General enquiries</h2>
+
+    <div class="vcard contact-inner">
+
+        <div class="email-url-number">
+            <p class="contact_form_url">
+              <span class="type">Contact form</span>
+              <a href="http://landregistry.custhelp.com/app/contactus_general/">http://landregistry.cu...</a>
+            </p>
+        </div>
+
+        <p class="comments">For general enquiries, please use our contact form.</p>
+
+    </div>
+  </div>
+</div>
+<div class="contact " id="contact_2754">
+  <div class="content">
+    <h2>Ymholiadau cyffredinol</h2>
+
+    <div class="vcard contact-inner">
+
+        <div class="email-url-number">
+            <p class="contact_form_url">
+              <span class="type">Contact form</span>
+              <a href="http://landregistry.custhelp.com/app/contactus_general_w">http://landregistry.cu...</a>
+            </p>
+        </div>
+
+        <p class="comments">Defnyddiwch ein ffurflen gysylltu ar gyfer ymholiadau cyffredinol.</p>
+
+    </div>
+  </div>
+</div>
+<div class="contact " id="contact_2208">
+  <div class="content">
+    <h2>Support forum</h2>
+
+    <div class="vcard contact-inner">
+
+        <div class="email-url-number">
+            <p class="contact_form_url">
+              <span class="type">Contact form</span>
+              <a href="https://support.landregistry.gov.uk">https://support.landre...</a>
+            </p>
+        </div>
+
+        <p class="comments">For land and property questions and answers, please use our public forum.</p>
+
+    </div>
+  </div>
+</div>
+<div class="contact clear-contact" id="contact_2209">
+  <div class="content">
+    <h2>Land Charges</h2>
+
+    <div class="vcard contact-inner">
+
+        <div class="email-url-number">
+            <p class="email">
+              <span class="type">Email</span>
+              <a class="email" href="mailto:LandCharges.CustomerTeam@landregistry.gsi.gov.uk">LandCharges.CustomerTeam@landregistry.gsi.gov.uk</a>
+            </p>
+        </div>
+
+        <p class="comments">For queries about Land Charges registers or Agricultural Credits.</p>
+
+    </div>
+  </div>
+</div>
+<div class="contact " id="contact_2210">
+  <div class="content">
+    <h2>Commercial services</h2>
+
+    <div class="vcard contact-inner">
+
+        <div class="email-url-number">
+            <p class="email">
+              <span class="type">Email</span>
+              <a class="email" href="mailto:commercial.services@landregistry.gsi.gov.uk">commercial.services@landregistry.gsi.gov.uk</a>
+            </p>
+        </div>
+
+        <p class="comments">For queries on commercial property information services.</p>
+
+    </div>
+  </div>
+</div>
+<div class="contact " id="contact_2211">
+  <div class="content">
+    <h2>International services</h2>
+
+    <div class="vcard contact-inner">
+
+        <div class="email-url-number">
+            <p class="email">
+              <span class="type">Email</span>
+              <a class="email" href="mailto:international@landregistry.gsi.gov.uk">international@landregistry.gsi.gov.uk</a>
+            </p>
+        </div>
+
+        <p class="comments">For queries about international land administration systems.</p>
+
+    </div>
+  </div>
+</div>
+<div class="contact clear-contact" id="contact_2191">
+  <div class="content">
+    <h2>Phishing emails</h2>
+
+    <div class="vcard contact-inner">
+
+        <div class="email-url-number">
+            <p class="email">
+              <span class="type">Email</span>
+              <a class="email" href="mailto:phishing@landregistry.gsi.gov.uk">phishing@landregistry.gsi.gov.uk</a>
+            </p>
+        </div>
+
+        <p class="comments">Please forward any suspicious Land Registry emails to us. You won't receive a response, but we will examine the email.</p>
+
+    </div>
+  </div>
+</div>
+            </div>
+          </div>
+
+          <section id="freedom-of-information">
+              <h1 class="label">Make an FOI request</h1>
+              <ol class="steps">
+                <li>Read about the Freedom of Information (FOI) Act and <a href="https://www.gov.uk/make-a-freedom-of-information-request/the-freedom-of-information-act">how to make a request</a>
+</li>
+                <li>Check <a href="/government/publications?departments%5B%5D=land-registry&amp;publication_type=foi-releases">our previous releases</a> to see if we’ve already answered your question</li>
+                  <li>Make a new request by contacting us at:</li>
+              </ol>
+
+                <div class="org-contacts">
+                  <div class="addresses js-hide-extra-contacts">
+                    <div class="contact clear-contact postal-address" id="contact_1307">
+  <div class="content">
+    <h2>Freedom of Information requests</h2>
+
+    <div class="vcard contact-inner">
+        <p class="adr">
+<span class="fn">Freedom of Information Officer</span><br>
+<span class="street-address">Trafalgar House
+<br>
+1 Bedford Park</span><br>
+<span class="locality">Croydon</span><br>
+<span class="postal-code">CR0 2AQ</span>
+</p>
+
+
+        <div class="email-url-number">
+            <p class="email">
+              <span class="type">Email</span>
+              <a class="email" href="mailto:foi@landregistry.gsi.gov.uk">foi@landregistry.gsi.gov.uk</a>
+            </p>
+        </div>
+
+
+    </div>
+  </div>
+</div>
+                  </div>
+                </div>
+          </section>
+
+      </div>
+
+        <section class="corporate-information" id="corporate-info">
+  <h1>Corporate information</h1>
+  <div class="corporate-information-block">
+    <nav class="group sub_navigation" role="navigation">
+      <ul>
+          <li><a href="/government/organisations/land-registry/about/equality-and-diversity">Equality and diversity</a></li>
+          <li><a href="/government/organisations/land-registry/about/our-governance">Our governance</a></li>
+          <li><a href="/government/organisations/land-registry/about/complaints-procedure">Complaints procedure</a></li>
+          <li><a href="/government/organisations/land-registry/about/media-enquiries">Media enquiries</a></li>
+          <li><a href="/government/organisations/land-registry/about/access-and-opening">Office access and opening times</a></li>
+          <li><a href="/government/publications?departments%5B%5D=land-registry&amp;publication_type=corporate-reports">Corporate reports</a></li>
+          <li><a href="/government/publications?departments%5B%5D=land-registry&amp;publication_type=transparency-data">Transparency data</a></li>
+      </ul>
+    </nav>
+  </div>
+    <div class="corporate-information-block">
+      <h2>Jobs and contracts</h2>
+      <nav class="group sub_navigation" role="navigation">
+        <ul>
+            <li><a href="/government/organisations/land-registry/about/procurement">Procurement at Land Registry</a></li>
+            <li><a href="/government/organisations/land-registry/about/recruitment">Working for Land Registry</a></li>
+          <li><a rel="external" href="https://www.civilservicejobs.service.gov.uk/csr">Jobs</a></li>
+        </ul>
+      </nav>
+    </div>
+  <p class="information">
+      Read about the types of information we routinely publish in our <a href="/government/organisations/land-registry/about/publication-scheme">Publication scheme</a>.
+      Find out about our commitment to publishing in the <a href="/government/organisations/land-registry/about/welsh-language-scheme">Welsh language scheme</a>.
+      Our <a href="/government/organisations/land-registry/about/personal-information-charter">Personal information charter</a> explains how we treat your personal information.
+      Read our policy on <a href="/government/organisations/land-registry/about/social-media-use">Social media use</a>.
+      Find out <a href="/government/organisations/land-registry/about/about-our-services">About our services</a>.
+  </p>
+</section>
+
+
+    </div>
+  </div>
+
+
+</div>
+      
+    </div>
+  </main>
+
+          <div class="report-a-problem-toggle-wrapper js-footer">        <p class="report-a-problem-toggle">          <a href="" class="js-report-a-problem-toggle">Is there anything wrong with this page?</a>        </p>      </div><div class="report-a-problem-container">
+  <div class="report-a-problem-inner">
+    <div class="report-a-problem-content">
+      <h2>Help us improve GOV.UK</h2>
+      <form accept-charset="UTF-8" action="/contact/govuk/problem_reports" method="post">
+        <div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"></div>
+        <input id="url" name="url" type="hidden" value="https://www.gov.uk/government/organisations/land-registry">
+        
+          <input id="source" name="source" type="hidden" value="inside_government">
+        
+        
+          <input id="page_owner" name="page_owner" type="hidden" value="land_registry">
+        
+
+        <p>Don’t include personal or financial information, eg your National Insurance number or credit card details.</p>
+
+        <label for="what_doing">What you were doing</label>
+        <input id="what_doing" name="what_doing" type="text">
+
+        <label for="what_wrong">What went wrong</label>
+        <input id="what_wrong" name="what_wrong" type="text">
+
+        <div class="button-wrapper">
+          <button name="commit" type="submit" class="button">Send</button>
+        </div>
+      <input type="hidden" name="javascript_enabled" value="true"><input type="hidden" name="referrer" value="https://www.gov.uk/search?q=land+registry&amp;filter_organisations%5B%5D=land-registry"></form>
+    </div>
+  </div>
+</div>
+</div>
+
+
+    <footer class="group js-footer" id="footer" role="contentinfo">
+
+      <div class="footer-wrapper">
+          <div class="footer-categories">
+    <div class="footer-explore">
+      <h2>Services and information</h2>
+
+      <ul>
+        <li><a href="/browse/benefits">Benefits</a></li>
+        <li><a href="/browse/births-deaths-marriages">Births, deaths, marriages and care</a></li>
+        <li><a href="/browse/business">Business and self-employed</a></li>
+        <li><a href="/browse/childcare-parenting">Childcare and parenting</a></li>
+        <li><a href="/browse/citizenship">Citizenship and living in the UK</a></li>
+        <li><a href="/browse/justice">Crime, justice and the law</a></li>
+        <li><a href="/browse/disabilities">Disabled people</a></li>
+        <li><a href="/browse/driving">Driving and transport</a></li>
+      </ul>
+      <ul>
+        <li><a href="/browse/education">Education and learning</a></li>
+        <li><a href="/browse/employing-people">Employing people</a></li>
+        <li><a href="/browse/environment-countryside">Environment and countryside</a></li>
+        <li><a href="/browse/housing-local-services">Housing and local services</a></li>
+        <li><a href="/browse/tax">Money and tax</a></li>
+        <li><a href="/browse/abroad">Passports, travel and living abroad</a></li>
+        <li><a href="/browse/visas-immigration">Visas and immigration</a></li>
+        <li><a href="/browse/working">Working, jobs and pensions</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-inside-government">
+      <h2>Departments and policy</h2>
+
+      <ul>
+        <li><a href="/government/how-government-works">How government works</a></li>
+        <li><a href="/government/organisations">Departments</a></li>
+        <li><a href="/government/world">Worldwide</a></li>
+        <li><a href="/government/policies">Policies</a></li>
+        <li><a href="/government/publications">Publications</a></li>
+        <li><a href="/government/announcements">Announcements</a></li>
+      </ul>
+    </div>
+    <hr>
+  </div>
+
+
+        <div class="footer-meta">
+          <div class="footer-meta-inner">
+              <h2 class="visuallyhidden">Support links</h2>
+<ul>
+  <li><a href="/help">Help</a></li>
+  <li><a href="/help/cookies">Cookies</a></li>
+  <li><a href="/contact">Contact</a></li>
+  <li><a href="/cymraeg">Rhestr o Wasanaethau Cymraeg</a></li>
+  <li>Built by the <a href="https://www.gov.uk/government/organisations/government-digital-service">Government Digital Service</a>
+</li>
+</ul>
+
+
+
+            <div class="open-government-licence">
+              <p class="logo"><a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" rel="license">Open Government Licence</a></p>
+                <p>All content is available under the <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" rel="license">Open Government Licence v3.0</a>, except where otherwise stated</p>
+            </div>
+          </div>
+
+          <div class="copyright">
+            <a href="http://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/copyright-and-re-use/crown-copyright/">© Crown copyright</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--end footer-->
+
+    <div id="global-app-error" class="app-error hidden"></div>
+
+    <script src="https://assets.digital.cabinet-office.gov.uk/static/govuk-template-c4f303154d2a238bdda4d5cf1ebd8d4487822e4cbc3e4c83e743da869443ce72.js" type="text/javascript"></script>
+
+      <script src="https://assets.digital.cabinet-office.gov.uk/static/libs/jquery/jquery-1.11.3-92dc85369a3bf658db02f5a3f52231ccf961a37627ae12486f4ce34eba12a3dd.js"></script>
+<script src="https://assets.digital.cabinet-office.gov.uk/static/header-footer-only-e9c88c0b20845989736726319f1a2b885e35c8e513bec70b5ac05e758622fe12.js"></script>
+
+
+  <script src="https://assets.digital.cabinet-office.gov.uk/government/assets/application-0f30631684ed3abd4f0ed0b30ef9984e085e98f35607726a557658892509b322.js"></script><script>
+//<![CDATA[
+
+//]]>
+</script>
+
+
+</body></html>
